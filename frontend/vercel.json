@@ -1,10 +1,8 @@
 {
-  "buildCommand": "echo 'Skipping build'",
-  "outputDirectory": ".",
-  "rewrites": [
-    {
-      "source": "/((?!.*\\.).*)",
-      "destination": "/index.html"
-    }
-  ]
+    "rewrites": [
+          {
+                  "source": "/((?!.*\\.).*)",
+                  "destination": "/index.html"
+          }
+    ]
 }
