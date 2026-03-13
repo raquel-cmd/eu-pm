@@ -1,10 +1,9 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "framework": "vite",
+  "buildCommand": "echo 'Skipping build'",
+  "outputDirectory": ".",
   "rewrites": [
     {
-      "source": "/((?!assets|favicon).*)",
+      "source": "/((?!.*\\.).*)",
       "destination": "/index.html"
     }
   ]
